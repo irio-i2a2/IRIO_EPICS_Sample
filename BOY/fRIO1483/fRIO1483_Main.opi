@@ -1,0 +1,4770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display typeId="org.csstudio.opibuilder.Display" version="1.0.0">
+  <show_close_button>true</show_close_button>
+  <rules />
+  <wuid>3fdc6983:15920fb0e2c:-7735</wuid>
+  <show_grid>true</show_grid>
+  <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
+  <scripts />
+  <height>3000</height>
+  <macros>
+    <include_parent_macros>true</include_parent_macros>
+  </macros>
+  <boy_version>4.0.103.201507131348</boy_version>
+  <show_edit_range>true</show_edit_range>
+  <widget_type>Display</widget_type>
+  <auto_scale_widgets>
+    <auto_scale_widgets>false</auto_scale_widgets>
+    <min_width>-1</min_width>
+    <min_height>-1</min_height>
+  </auto_scale_widgets>
+  <background_color>
+    <color name="OPI_Background" red="255" green="255" blue="255" />
+  </background_color>
+  <width>3000</width>
+  <x>0</x>
+  <name>TEST-FCT0-HWCF</name>
+  <grid_space>6</grid_space>
+  <show_ruler>true</show_ruler>
+  <y>0</y>
+  <snap_to_geometry>true</snap_to_geometry>
+  <foreground_color>
+    <color name="OPI_Background" red="255" green="255" blue="255" />
+  </foreground_color>
+  <actions hook="false" hook_all="false" />
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>3fdc6983:15920fb0e2c:-7687</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>fRIO 1483 Image Data Acquisition OPI Panel</text>
+    <scripts />
+    <height>148</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>1900</width>
+    <x>186</x>
+    <name>fRIO 1483 Image OPI Panel</name>
+    <y>2166</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <fontdata fontName="Sans" height="40" style="1" />
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <crop_left>0</crop_left>
+    <enabled>true</enabled>
+    <wuid>3fdc6983:15920fb0e2c:-6ea1</wuid>
+    <auto_size>true</auto_size>
+    <image_file>../images/i2a2_logo.png</image_file>
+    <scripts />
+    <height>148</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <align_to_nearest_second>false</align_to_nearest_second>
+    <visible>true</visible>
+    <crop_bottom>0</crop_bottom>
+    <degree>0</degree>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <no_animation>false</no_animation>
+    <widget_type>Image</widget_type>
+    <flip_horizontal>false</flip_horizontal>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <permutation_matrix>
+      <row>
+        <col>1.0</col>
+        <col>0.0</col>
+      </row>
+      <row>
+        <col>0.0</col>
+        <col>1.0</col>
+      </row>
+    </permutation_matrix>
+    <width>150</width>
+    <x>186</x>
+    <name>Image</name>
+    <y>2166</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <crop_top>0</crop_top>
+    <crop_right>0</crop_right>
+    <stretch_to_fit>false</stretch_to_fit>
+    <flip_vertical>false</flip_vertical>
+    <font>
+      <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-3a56f574:15925f8ad9e:-4611</wuid>
+    <transparent>false</transparent>
+    <lock_children>false</lock_children>
+    <scripts />
+    <height>972</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <visible>true</visible>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0" />
+    </border_color>
+    <widget_type>Grouping Container</widget_type>
+    <background_color>
+      <color name="Background" red="255" green="255" blue="255" />
+    </background_color>
+    <width>830</width>
+    <x>100</x>
+    <name>Control</name>
+    <y>300</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <fc>false</fc>
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <fontdata fontName="Sans" height="1" style="1" />
+    </font>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <border_style>13</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-3a56f574:15925f8ad9e:-4609</wuid>
+      <transparent>false</transparent>
+      <lock_children>false</lock_children>
+      <scripts />
+      <height>125</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <visible>true</visible>
+      <border_color>
+        <color name="Black" red="0" green="0" blue="0" />
+      </border_color>
+      <widget_type>Grouping Container</widget_type>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255" />
+      </background_color>
+      <width>800</width>
+      <x>12</x>
+      <name>Digital Output</name>
+      <y>855</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <fc>false</fc>
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      </font>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Digital Output channel $(CHIDX) value</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-4608</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-DO0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-DO0</name>
+        <y>0</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+        <toggle_button>true</toggle_button>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <push_action_index>0</push_action_index>
+        <rules />
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-4607</wuid>
+        <on_color>
+          <color name="IO PV ON" red="0" green="0" blue="255" />
+        </on_color>
+        <show_confirm_dialog>0</show_confirm_dialog>
+        <password></password>
+        <pv_value />
+        <released_action_index>0</released_action_index>
+        <square_button>true</square_button>
+        <show_led>true</show_led>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <height>45</height>
+        <on_label>TRUE</on_label>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-DO0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Boolean Button</widget_type>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <confirm_message></confirm_message>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>boolButton1483-0-DO0</name>
+        <data_type>0</data_type>
+        <y>0</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>true</show_boolean_label>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+        <off_label>FALSE</off_label>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Digital Output channel $(CHIDX) value</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-4606</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-DO1</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-DO1</name>
+        <y>45</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+        <toggle_button>true</toggle_button>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <push_action_index>0</push_action_index>
+        <rules />
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-4605</wuid>
+        <on_color>
+          <color name="IO PV ON" red="0" green="0" blue="255" />
+        </on_color>
+        <show_confirm_dialog>0</show_confirm_dialog>
+        <password></password>
+        <pv_value />
+        <released_action_index>0</released_action_index>
+        <square_button>true</square_button>
+        <show_led>true</show_led>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <height>45</height>
+        <on_label>TRUE</on_label>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-DO1</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Boolean Button</widget_type>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <confirm_message></confirm_message>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>boolButton1483-0-DO1</name>
+        <data_type>0</data_type>
+        <y>45</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>true</show_boolean_label>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+        <off_label>FALSE</off_label>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <border_style>13</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-3a56f574:15925f8ad9e:-45fd</wuid>
+      <transparent>false</transparent>
+      <lock_children>true</lock_children>
+      <scripts />
+      <height>350</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <visible>true</visible>
+      <border_color>
+        <color name="Black" red="0" green="0" blue="0" />
+      </border_color>
+      <widget_type>Grouping Container</widget_type>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255" />
+      </background_color>
+      <width>800</width>
+      <x>12</x>
+      <name>Data Acquisition Control</name>
+      <y>17</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <fc>false</fc>
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      </font>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Controls DAQ Start/Stop.</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45f6</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-DAQSTARTSTOP</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-DAQSTARTSTOP</name>
+        <y>45</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+        <toggle_button>true</toggle_button>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <push_action_index>0</push_action_index>
+        <rules />
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45f5</wuid>
+        <on_color>
+          <color name="IO PV ON" red="0" green="0" blue="255" />
+        </on_color>
+        <show_confirm_dialog>0</show_confirm_dialog>
+        <password></password>
+        <pv_value />
+        <released_action_index>0</released_action_index>
+        <square_button>true</square_button>
+        <show_led>true</show_led>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <height>45</height>
+        <on_label>ON</on_label>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-DAQSTARTSTOP</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Boolean Button</widget_type>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <confirm_message></confirm_message>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>boolButton1483-0-DAQSTARTSTOP</name>
+        <data_type>0</data_type>
+        <y>45</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>true</show_boolean_label>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+        <off_label>OFF</off_label>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Controls FPGA DebugMode.</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45f4</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-DEBUGMODE</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-DEBUGMODE</name>
+        <y>90</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+        <toggle_button>true</toggle_button>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <push_action_index>0</push_action_index>
+        <rules />
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45f3</wuid>
+        <on_color>
+          <color name="IO PV ON" red="0" green="0" blue="255" />
+        </on_color>
+        <show_confirm_dialog>0</show_confirm_dialog>
+        <password></password>
+        <pv_value />
+        <released_action_index>0</released_action_index>
+        <square_button>true</square_button>
+        <show_led>true</show_led>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <height>45</height>
+        <on_label>ON</on_label>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-DEBUGMODE</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Boolean Button</widget_type>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <confirm_message></confirm_message>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>boolButton1483-0-DEBUGMODE</name>
+        <data_type>0</data_type>
+        <y>90</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>true</show_boolean_label>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+        <off_label>OFF</off_label>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>FPGA Start.</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45f2</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-FPGASTART</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-FPGASTART</name>
+        <y>0</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+        <toggle_button>true</toggle_button>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <push_action_index>0</push_action_index>
+        <rules />
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45f1</wuid>
+        <on_color>
+          <color name="IO PV ON" red="0" green="0" blue="255" />
+        </on_color>
+        <show_confirm_dialog>0</show_confirm_dialog>
+        <password></password>
+        <pv_value />
+        <released_action_index>0</released_action_index>
+        <square_button>true</square_button>
+        <show_led>true</show_led>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <height>45</height>
+        <on_label>ON</on_label>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-FPGASTART</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Boolean Button</widget_type>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <confirm_message></confirm_message>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>boolButton1483-0-FPGASTART</name>
+        <data_type>0</data_type>
+        <y>0</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>true</show_boolean_label>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+        <off_label>OFF</off_label>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Sampling rate of AI_INTR thread</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45f0</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-SR_AI_INTR ( S/s )</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-SR_AI_INTR ( S/s )</name>
+        <y>135</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <pv_value />
+        <auto_size>false</auto_size>
+        <read_only>false</read_only>
+        <text></text>
+        <show_units>false</show_units>
+        <height>45</height>
+        <multiline_input>false</multiline_input>
+        <border_width>1</border_width>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-SR_AI_INTR</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Input</widget_type>
+        <confirm_message></confirm_message>
+        <name>textInput1483-0-SR_AI_INTR ( S/s )</name>
+        <style>1</style>
+        <actions hook="false" hook_all="false" />
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <show_native_border>true</show_native_border>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45ef</wuid>
+        <next_focus>2</next_focus>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <format_type>0</format_type>
+        <limits_from_pv>true</limits_from_pv>
+        <background_color>
+          <color name="IO OutputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <password_input>false</password_input>
+        <width>438</width>
+        <x>328</x>
+        <y>135</y>
+        <foreground_color>
+          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Sampling rate of DI_INTR thread</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45ee</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-SR_DI_INTR ( S/s )</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-SR_DI_INTR ( S/s )</name>
+        <y>180</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <pv_value />
+        <auto_size>false</auto_size>
+        <read_only>false</read_only>
+        <text></text>
+        <show_units>false</show_units>
+        <height>45</height>
+        <multiline_input>false</multiline_input>
+        <border_width>1</border_width>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-SR_DI_INTR</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Input</widget_type>
+        <confirm_message></confirm_message>
+        <name>textInput1483-0-SR_DI_INTR ( S/s )</name>
+        <style>1</style>
+        <actions hook="false" hook_all="false" />
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <show_native_border>true</show_native_border>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45ed</wuid>
+        <next_focus>2</next_focus>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <format_type>0</format_type>
+        <limits_from_pv>true</limits_from_pv>
+        <background_color>
+          <color name="IO OutputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <password_input>false</password_input>
+        <width>438</width>
+        <x>328</x>
+        <y>180</y>
+        <foreground_color>
+          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Block Decimation factor of DMA$(GRIDX)</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45ea</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-DF0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-DF0</name>
+        <y>225</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <pv_value />
+        <auto_size>false</auto_size>
+        <read_only>false</read_only>
+        <text></text>
+        <show_units>false</show_units>
+        <height>45</height>
+        <multiline_input>false</multiline_input>
+        <border_width>1</border_width>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-DF0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Input</widget_type>
+        <confirm_message></confirm_message>
+        <name>textInput1483-0-DF0</name>
+        <style>1</style>
+        <actions hook="false" hook_all="false" />
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <show_native_border>true</show_native_border>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45e9</wuid>
+        <next_focus>2</next_focus>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <format_type>0</format_type>
+        <limits_from_pv>true</limits_from_pv>
+        <background_color>
+          <color name="IO OutputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <password_input>false</password_input>
+        <width>438</width>
+        <x>328</x>
+        <y>225</y>
+        <foreground_color>
+          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Controls ChannelGroup$(GRIDX) enable/disable</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45e8</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-GROUPENABLE0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-GROUPENABLE0</name>
+        <y>270</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+        <toggle_button>true</toggle_button>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <push_action_index>0</push_action_index>
+        <rules />
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45e7</wuid>
+        <on_color>
+          <color name="IO PV ON" red="0" green="0" blue="255" />
+        </on_color>
+        <show_confirm_dialog>0</show_confirm_dialog>
+        <password></password>
+        <pv_value />
+        <released_action_index>0</released_action_index>
+        <square_button>true</square_button>
+        <show_led>true</show_led>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <height>45</height>
+        <on_label>ENABLE</on_label>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-GROUPENABLE0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Boolean Button</widget_type>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <confirm_message></confirm_message>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>boolButton1483-0-GROUPENABLE0</name>
+        <data_type>0</data_type>
+        <y>270</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>true</show_boolean_label>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+        <off_label>DISABLE</off_label>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <border_style>13</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-3a56f574:15925f8ad9e:-4209</wuid>
+      <transparent>false</transparent>
+      <lock_children>true</lock_children>
+      <scripts />
+      <height>485</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <visible>true</visible>
+      <border_color>
+        <color name="Black" red="0" green="0" blue="0" />
+      </border_color>
+      <widget_type>Grouping Container</widget_type>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255" />
+      </background_color>
+      <width>800</width>
+      <x>12</x>
+      <name>Image Acquisition Parameters</name>
+      <y>370</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <fc>false</fc>
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      </font>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>0-Base,1-Medium,2-Full</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-4208</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-CONFIGURATION0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>440</width>
+        <x>0</x>
+        <name>lbl1483-0-CONFIGURATION0</name>
+        <y>0</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
+        <border_style>6</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-4207</wuid>
+        <pv_value />
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <height>31</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <items_from_pv>true</items_from_pv>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-CONFIGURATION0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Combo</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO OutputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <width>440</width>
+        <x>329</x>
+        <name>cmb1483-0-CONFIGURATION0</name>
+        <y>0</y>
+        <foreground_color>
+          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Set CL DVAL Active High $(GRIDX)</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-4206</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-DVALHIGH0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>440</width>
+        <x>0</x>
+        <name>lbl1483-0-DVALHIGH0</name>
+        <y>45</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+        <toggle_button>true</toggle_button>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <push_action_index>0</push_action_index>
+        <rules />
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-4205</wuid>
+        <on_color>
+          <color name="IO PV ON" red="0" green="0" blue="255" />
+        </on_color>
+        <show_confirm_dialog>0</show_confirm_dialog>
+        <password></password>
+        <pv_value />
+        <released_action_index>0</released_action_index>
+        <square_button>true</square_button>
+        <show_led>true</show_led>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <height>45</height>
+        <on_label>ENABLE</on_label>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-DVALHIGH0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Boolean Button</widget_type>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <confirm_message></confirm_message>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </background_color>
+        <width>440</width>
+        <x>329</x>
+        <name>boolButton1483-0-DVALHIGH0</name>
+        <data_type>0</data_type>
+        <y>44</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>true</show_boolean_label>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+        <off_label>DISABLE</off_label>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Set CL FVAL Active High $(GRIDX)</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-4204</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-FVALHIGH0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>440</width>
+        <x>0</x>
+        <name>lbl1483-0-FVALHIGH0</name>
+        <y>90</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+        <toggle_button>true</toggle_button>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <push_action_index>0</push_action_index>
+        <rules />
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-4203</wuid>
+        <on_color>
+          <color name="IO PV ON" red="0" green="0" blue="255" />
+        </on_color>
+        <show_confirm_dialog>0</show_confirm_dialog>
+        <password></password>
+        <pv_value />
+        <released_action_index>0</released_action_index>
+        <square_button>true</square_button>
+        <show_led>true</show_led>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <height>45</height>
+        <on_label>ENABLE</on_label>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-FVALHIGH0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Boolean Button</widget_type>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <confirm_message></confirm_message>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </background_color>
+        <width>440</width>
+        <x>329</x>
+        <name>boolButton1483-0-FVALHIGH0</name>
+        <data_type>0</data_type>
+        <y>89</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>true</show_boolean_label>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+        <off_label>DISABLE</off_label>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Set CL Line Scan $(GRIDX)</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-4202</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-LINESCAN0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>440</width>
+        <x>0</x>
+        <name>lbl1483-0-LINESCAN0</name>
+        <y>135</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+        <toggle_button>true</toggle_button>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <push_action_index>0</push_action_index>
+        <rules />
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-4201</wuid>
+        <on_color>
+          <color name="IO PV ON" red="0" green="0" blue="255" />
+        </on_color>
+        <show_confirm_dialog>0</show_confirm_dialog>
+        <password></password>
+        <pv_value />
+        <released_action_index>0</released_action_index>
+        <square_button>true</square_button>
+        <show_led>true</show_led>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <height>45</height>
+        <on_label>ENABLE</on_label>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-LINESCAN0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Boolean Button</widget_type>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <confirm_message></confirm_message>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </background_color>
+        <width>440</width>
+        <x>329</x>
+        <name>boolButton1483-0-LINESCAN0</name>
+        <data_type>0</data_type>
+        <y>134</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>true</show_boolean_label>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+        <off_label>DISABLE</off_label>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Set CL LVAL Active High $(GRIDX)</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-4200</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-LVALHIGH0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>440</width>
+        <x>0</x>
+        <name>lbl1483-0-LVALHIGH0</name>
+        <y>180</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+        <toggle_button>true</toggle_button>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <push_action_index>0</push_action_index>
+        <rules />
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-41ff</wuid>
+        <on_color>
+          <color name="IO PV ON" red="0" green="0" blue="255" />
+        </on_color>
+        <show_confirm_dialog>0</show_confirm_dialog>
+        <password></password>
+        <pv_value />
+        <released_action_index>0</released_action_index>
+        <square_button>true</square_button>
+        <show_led>true</show_led>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <height>45</height>
+        <on_label>ENABLE</on_label>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-LVALHIGH0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Boolean Button</widget_type>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <confirm_message></confirm_message>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </background_color>
+        <width>440</width>
+        <x>329</x>
+        <name>boolButton1483-0-LVALHIGH0</name>
+        <data_type>0</data_type>
+        <y>179</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>true</show_boolean_label>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+        <off_label>DISABLE</off_label>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Select the signal mapping $(GRIDX)</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-41fe</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-SIGNALMAPPING0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>440</width>
+        <x>0</x>
+        <name>lbl1483-0-SIGNALMAPPING0</name>
+        <y>225</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
+        <border_style>6</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-41fd</wuid>
+        <pv_value />
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <height>31</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <items_from_pv>true</items_from_pv>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-SIGNALMAPPING0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Combo</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO OutputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <width>440</width>
+        <x>329</x>
+        <name>cmb1483-0-SIGNALMAPPING0</name>
+        <y>225</y>
+        <foreground_color>
+          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Image size in X dimension current value.</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-41fc</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-SIZEX0 ( pix )</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>440</width>
+        <x>0</x>
+        <name>lbl1483-0-SIZEX0 ( pix )</name>
+        <y>270</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <pv_value />
+        <auto_size>false</auto_size>
+        <read_only>false</read_only>
+        <text></text>
+        <show_units>false</show_units>
+        <height>45</height>
+        <multiline_input>false</multiline_input>
+        <border_width>1</border_width>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-SIZEX0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Input</widget_type>
+        <confirm_message></confirm_message>
+        <name>textInput1483-0-SIZEX0 ( pix )</name>
+        <style>1</style>
+        <actions hook="false" hook_all="false" />
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <show_native_border>true</show_native_border>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-41fb</wuid>
+        <next_focus>2</next_focus>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <format_type>0</format_type>
+        <limits_from_pv>true</limits_from_pv>
+        <background_color>
+          <color name="IO OutputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <password_input>false</password_input>
+        <width>440</width>
+        <x>329</x>
+        <y>270</y>
+        <foreground_color>
+          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Image size in Y dimension current value.</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-41fa</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-SIZEY0 ( pix )</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>440</width>
+        <x>0</x>
+        <name>lbl1483-0-SIZEY0 ( pix )</name>
+        <y>315</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <pv_value />
+        <auto_size>false</auto_size>
+        <read_only>false</read_only>
+        <text></text>
+        <show_units>false</show_units>
+        <height>45</height>
+        <multiline_input>false</multiline_input>
+        <border_width>1</border_width>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-SIZEY0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Input</widget_type>
+        <confirm_message></confirm_message>
+        <name>textInput1483-0-SIZEY0 ( pix )</name>
+        <style>1</style>
+        <actions hook="false" hook_all="false" />
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <show_native_border>true</show_native_border>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-41f9</wuid>
+        <next_focus>2</next_focus>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <format_type>0</format_type>
+        <limits_from_pv>true</limits_from_pv>
+        <background_color>
+          <color name="IO OutputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <password_input>false</password_input>
+        <width>440</width>
+        <x>329</x>
+        <y>315</y>
+        <foreground_color>
+          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Set CL Spare Active High $(GRIDX)</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-41f8</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-SPAREHIGH0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>440</width>
+        <x>0</x>
+        <name>lbl1483-0-SPAREHIGH0</name>
+        <y>360</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+        <toggle_button>true</toggle_button>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <push_action_index>0</push_action_index>
+        <rules />
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-41f7</wuid>
+        <on_color>
+          <color name="IO PV ON" red="0" green="0" blue="255" />
+        </on_color>
+        <show_confirm_dialog>0</show_confirm_dialog>
+        <password></password>
+        <pv_value />
+        <released_action_index>0</released_action_index>
+        <square_button>true</square_button>
+        <show_led>true</show_led>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <height>45</height>
+        <on_label>ENABLE</on_label>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-SPAREHIGH0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Boolean Button</widget_type>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <confirm_message></confirm_message>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </background_color>
+        <width>440</width>
+        <x>329</x>
+        <name>boolButton1483-0-SPAREHIGH0</name>
+        <data_type>0</data_type>
+        <y>360</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>true</show_boolean_label>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+        <off_label>DISABLE</off_label>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Uart Transmit $(GRIDX)</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-41f6</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-UARTTRANSMIT0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>440</width>
+        <x>0</x>
+        <name>lbl1483-0-UARTTRANSMIT0</name>
+        <y>405</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <pv_value />
+        <auto_size>false</auto_size>
+        <read_only>false</read_only>
+        <text></text>
+        <show_units>false</show_units>
+        <height>45</height>
+        <multiline_input>false</multiline_input>
+        <border_width>1</border_width>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-UARTTRANSMIT0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Input</widget_type>
+        <confirm_message></confirm_message>
+        <name>textInput1483-0-UARTTRANSMIT0</name>
+        <style>1</style>
+        <actions hook="false" hook_all="false" />
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <show_native_border>true</show_native_border>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-41f5</wuid>
+        <next_focus>2</next_focus>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <format_type>0</format_type>
+        <limits_from_pv>true</limits_from_pv>
+        <background_color>
+          <color name="IO OutputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <password_input>false</password_input>
+        <width>440</width>
+        <x>329</x>
+        <y>405</y>
+        <foreground_color>
+          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+    </widget>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-3a56f574:15925f8ad9e:-45d9</wuid>
+    <transparent>false</transparent>
+    <lock_children>false</lock_children>
+    <scripts />
+    <height>971</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <visible>true</visible>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0" />
+    </border_color>
+    <widget_type>Grouping Container</widget_type>
+    <background_color>
+      <color name="Background" red="255" green="255" blue="255" />
+    </background_color>
+    <width>800</width>
+    <x>910</x>
+    <name>Status</name>
+    <y>300</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <fc>false</fc>
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <fontdata fontName="Sans" height="1" style="1" />
+    </font>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <border_style>13</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-3a56f574:15925f8ad9e:-45d8</wuid>
+      <transparent>false</transparent>
+      <lock_children>true</lock_children>
+      <scripts />
+      <height>499</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <visible>true</visible>
+      <border_color>
+        <color name="Black" red="0" green="0" blue="0" />
+      </border_color>
+      <widget_type>Grouping Container</widget_type>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255" />
+      </background_color>
+      <width>800</width>
+      <x>0</x>
+      <name>Device Info</name>
+      <y>17</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <fc>false</fc>
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      </font>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>RIO device name</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45d7</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-DEVICENAME</text>
+        <scripts />
+        <height>42</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-DEVICENAME</name>
+        <y>274</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45d6</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>42</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-DEVICENAME</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-DEVICENAME</name>
+        <y>274</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>FPGA Temperature.</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45d5</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-DEVICETEMP ( C Degrees )</text>
+        <scripts />
+        <height>42</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-DEVICETEMP ( C Degrees )</name>
+        <y>366</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45d4</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>42</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-DEVICETEMP</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-DEVICETEMP ( C Degrees )</name>
+        <y>366</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Info of errors in acquisition process</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45d3</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-DMAsOVERFLOW0</text>
+        <scripts />
+        <height>42</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-DMAsOVERFLOW0</name>
+        <y>413</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45d2</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>42</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-DMAsOVERFLOW0</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-DMAsOVERFLOW0</name>
+        <y>413</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>IRIO driver version</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45d1</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-DRIVERVERSION</text>
+        <scripts />
+        <height>42</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-DRIVERVERSION</name>
+        <y>89</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45d0</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>42</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-DRIVERVERSION</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-DRIVERVERSION</name>
+        <y>89</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Epics-irio driver version</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45cf</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-EPICSVERSION</text>
+        <scripts />
+        <height>42</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-EPICSVERSION</name>
+        <y>135</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45ce</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>42</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-EPICSVERSION</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-EPICSVERSION</name>
+        <y>135</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>RIO device FPGA status</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45cd</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-FPGASTATUS</text>
+        <scripts />
+        <height>42</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-FPGASTATUS</name>
+        <y>321</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45cc</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>42</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-FPGASTATUS</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-FPGASTATUS</name>
+        <y>321</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Bitfile version</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45cb</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-FPGAVIVERSION</text>
+        <scripts />
+        <height>42</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-FPGAVIVERSION</name>
+        <y>180</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45ca</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>42</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-FPGAVIVERSION</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-FPGAVIVERSION</name>
+        <y>180</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>RIO device serial number</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45c9</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-SERIALNUMBER</text>
+        <scripts />
+        <height>42</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-SERIALNUMBER</name>
+        <y>227</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45c8</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>42</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-SERIALNUMBER</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-SERIALNUMBER</name>
+        <y>227</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>$(BOARDTYPE).$(BOARDTYPEIDX) Board Status</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45c7</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-STATUS</text>
+        <scripts />
+        <height>42</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-STATUS</name>
+        <y>0</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45c6</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>42</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-STATUS</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-STATUS</name>
+        <y>0</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>RIO device status INFO</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45c5</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-STATUS-STR</text>
+        <scripts />
+        <height>42</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-STATUS-STR</name>
+        <y>42</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45c4</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>42</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-STATUS-STR</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-STATUS-STR</name>
+        <y>42</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <border_style>13</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-3a56f574:15925f8ad9e:-4261</wuid>
+      <transparent>false</transparent>
+      <lock_children>false</lock_children>
+      <scripts />
+      <height>304</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <visible>true</visible>
+      <border_color>
+        <color name="Black" red="0" green="0" blue="0" />
+      </border_color>
+      <widget_type>Grouping Container</widget_type>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255" />
+      </background_color>
+      <width>800</width>
+      <x>0</x>
+      <name>Image Acquisition Info</name>
+      <y>519</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <fc>false</fc>
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      </font>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Read image.</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>3fdc6983:15920fb0e2c:-7706</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-IMAGE0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-IMAGE0</name>
+        <y>0</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>3fdc6983:15920fb0e2c:-7705</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>45</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-IMAGE0</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-IMAGE0</name>
+        <y>0</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Image size</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>3fdc6983:15920fb0e2c:-7703</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-IMAGESIZE0 ( byte )</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-IMAGESIZE0 ( byte )</name>
+        <y>45</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>3fdc6983:15920fb0e2c:-7702</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>45</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-IMAGESIZE0</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-IMAGESIZE0 ( byte )</name>
+        <y>45</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Uart break indicator $(GRIDX)</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>3fdc6983:15920fb0e2c:-76f7</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-UARTBREAK0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-UARTBREAK0</name>
+        <y>90</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>3fdc6983:15920fb0e2c:-76f6</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>45</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-UARTBREAK0</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-UARTBREAK0</name>
+        <y>90</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <rules>
+          <rule name="Alarm LED ON State Color" prop_id="on_color" out_exp="false">
+            <exp bool_exp="pv0== 0">
+              <value>
+                <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 1">
+              <value>
+                <color name="IO Medium Level Alarm" red="255" green="255" blue="0" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 2">
+              <value>
+                <color name="IO High Level Alarm" red="250" green="12" blue="14" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 3">
+              <value>
+                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+          </rule>
+          <rule name="Alarm LED OFF State Color" prop_id="off_color" out_exp="false">
+            <exp bool_exp="pv0== 3">
+              <value>
+                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+          </rule>
+        </rules>
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <pv_value />
+        <height>25</height>
+        <border_width>2</border_width>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-UARTBREAK0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>LED</widget_type>
+        <name>led1483-0-UARTBREAK0</name>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>false</show_boolean_label>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <enabled>true</enabled>
+        <wuid>3fdc6983:15920fb0e2c:-76f5</wuid>
+        <on_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </on_color>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <on_label>ON</on_label>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO OutputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <square_led>false</square_led>
+        <width>25</width>
+        <x>350</x>
+        <data_type>0</data_type>
+        <y>100</y>
+        <foreground_color>
+          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Output 1</opifont.name>
+        </font>
+        <off_label>OFF</off_label>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Frame Error $(GRIDX)</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>3fdc6983:15920fb0e2c:-76f3</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-UARTFRAMEeRR0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-UARTFRAMEeRR0</name>
+        <y>135</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>3fdc6983:15920fb0e2c:-76f2</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>45</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-UARTFRAMEeRR0</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-UARTFRAMEeRR0</name>
+        <y>135</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <rules>
+          <rule name="Alarm LED ON State Color" prop_id="on_color" out_exp="false">
+            <exp bool_exp="pv0== 0">
+              <value>
+                <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 1">
+              <value>
+                <color name="IO Medium Level Alarm" red="255" green="255" blue="0" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 2">
+              <value>
+                <color name="IO High Level Alarm" red="250" green="12" blue="14" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 3">
+              <value>
+                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+          </rule>
+          <rule name="Alarm LED OFF State Color" prop_id="off_color" out_exp="false">
+            <exp bool_exp="pv0== 3">
+              <value>
+                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+          </rule>
+        </rules>
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <pv_value />
+        <height>25</height>
+        <border_width>2</border_width>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-UARTFRAMEeRR0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>LED</widget_type>
+        <name>led1483-0-UARTFRAMEeRR0</name>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>false</show_boolean_label>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <enabled>true</enabled>
+        <wuid>3fdc6983:15920fb0e2c:-76f1</wuid>
+        <on_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </on_color>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <on_label>ON</on_label>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO OutputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <square_led>false</square_led>
+        <width>25</width>
+        <x>350</x>
+        <data_type>0</data_type>
+        <y>145</y>
+        <foreground_color>
+          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Output 1</opifont.name>
+        </font>
+        <off_label>OFF</off_label>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>UartCorrect(0) or UartOverrun(1)</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>3fdc6983:15920fb0e2c:-76ef</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-UARTOVERRUN0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-UARTOVERRUN0</name>
+        <y>180</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>3fdc6983:15920fb0e2c:-76ee</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>45</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-UARTOVERRUN0</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-UARTOVERRUN0</name>
+        <y>180</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <rules>
+          <rule name="Alarm LED ON State Color" prop_id="on_color" out_exp="false">
+            <exp bool_exp="pv0== 0">
+              <value>
+                <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 1">
+              <value>
+                <color name="IO Medium Level Alarm" red="255" green="255" blue="0" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 2">
+              <value>
+                <color name="IO High Level Alarm" red="250" green="12" blue="14" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 3">
+              <value>
+                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+          </rule>
+          <rule name="Alarm LED OFF State Color" prop_id="off_color" out_exp="false">
+            <exp bool_exp="pv0== 3">
+              <value>
+                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+          </rule>
+        </rules>
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <pv_value />
+        <height>25</height>
+        <border_width>2</border_width>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-UARTOVERRUN0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>LED</widget_type>
+        <name>led1483-0-UARTOVERRUN0</name>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>false</show_boolean_label>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <enabled>true</enabled>
+        <wuid>3fdc6983:15920fb0e2c:-76ed</wuid>
+        <on_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </on_color>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <on_label>ON</on_label>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO OutputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <square_led>false</square_led>
+        <width>25</width>
+        <x>350</x>
+        <data_type>0</data_type>
+        <y>190</y>
+        <foreground_color>
+          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Output 1</opifont.name>
+        </font>
+        <off_label>OFF</off_label>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Uart Receive $(GRIDX)</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>3fdc6983:15920fb0e2c:-76eb</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-UARTRECEIVE0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-UARTRECEIVE0</name>
+        <y>225</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>3fdc6983:15920fb0e2c:-76ea</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>45</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-UARTRECEIVE0</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-UARTRECEIVE0</name>
+        <y>225</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <border_style>13</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-3a56f574:15925f8ad9e:-45bc</wuid>
+      <transparent>false</transparent>
+      <lock_children>false</lock_children>
+      <scripts />
+      <height>125</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <visible>true</visible>
+      <border_color>
+        <color name="Black" red="0" green="0" blue="0" />
+      </border_color>
+      <widget_type>Grouping Container</widget_type>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255" />
+      </background_color>
+      <width>800</width>
+      <x>0</x>
+      <name>Digital Input</name>
+      <y>855</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <fc>false</fc>
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      </font>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Digital Input channel $(CHIDX) value</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45bb</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-DI0</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-DI0</name>
+        <y>0</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45ba</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>45</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-DI0</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-DI0</name>
+        <y>0</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <rules>
+          <rule name="Alarm LED ON State Color" prop_id="on_color" out_exp="false">
+            <exp bool_exp="pv0== 0">
+              <value>
+                <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 1">
+              <value>
+                <color name="IO Medium Level Alarm" red="255" green="255" blue="0" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 2">
+              <value>
+                <color name="IO High Level Alarm" red="250" green="12" blue="14" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 3">
+              <value>
+                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+          </rule>
+          <rule name="Alarm LED OFF State Color" prop_id="off_color" out_exp="false">
+            <exp bool_exp="pv0== 3">
+              <value>
+                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+          </rule>
+        </rules>
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <pv_value />
+        <height>25</height>
+        <border_width>2</border_width>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-DI0</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>LED</widget_type>
+        <name>led1483-0-DI0</name>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>false</show_boolean_label>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45b9</wuid>
+        <on_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </on_color>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <on_label>ON</on_label>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO OutputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <square_led>false</square_led>
+        <width>25</width>
+        <x>350</x>
+        <data_type>0</data_type>
+        <y>10</y>
+        <foreground_color>
+          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Output 1</opifont.name>
+        </font>
+        <off_label>OFF</off_label>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip>Digital Input channel $(CHIDX) value</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>false</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45b8</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1483-0-DI1</text>
+        <scripts />
+        <height>45</height>
+        <border_width>2</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>true</wrap_words>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>0</x>
+        <name>lbl1483-0-DI1</name>
+        <y>45</y>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>1</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45b7</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text></text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>false</show_units>
+        <height>45</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-DI1</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <width>438</width>
+        <x>328</x>
+        <name>textUpdate1483-0-DI1</name>
+        <y>45</y>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip>$(pv_name) $(pv_value)</tooltip>
+        <rules>
+          <rule name="Alarm LED ON State Color" prop_id="on_color" out_exp="false">
+            <exp bool_exp="pv0== 0">
+              <value>
+                <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 1">
+              <value>
+                <color name="IO Medium Level Alarm" red="255" green="255" blue="0" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 2">
+              <value>
+                <color name="IO High Level Alarm" red="250" green="12" blue="14" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 3">
+              <value>
+                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+          </rule>
+          <rule name="Alarm LED OFF State Color" prop_id="off_color" out_exp="false">
+            <exp bool_exp="pv0== 3">
+              <value>
+                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+          </rule>
+        </rules>
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <pv_value />
+        <height>25</height>
+        <border_width>2</border_width>
+        <visible>true</visible>
+        <pv_name>TEST-FCT0-HWCF:1483-0-DI1</pv_name>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <widget_type>LED</widget_type>
+        <name>led1483-0-DI1</name>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>false</show_boolean_label>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <enabled>true</enabled>
+        <wuid>-3a56f574:15925f8ad9e:-45b6</wuid>
+        <on_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </on_color>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <on_label>ON</on_label>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO OutputPV Bg" red="235" green="235" blue="235" />
+        </background_color>
+        <square_led>false</square_led>
+        <width>25</width>
+        <x>350</x>
+        <data_type>0</data_type>
+        <y>55</y>
+        <foreground_color>
+          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Output 1</opifont.name>
+        </font>
+        <off_label>OFF</off_label>
+      </widget>
+    </widget>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-3a56f574:15925f8ad9e:-45a4</wuid>
+    <transparent>false</transparent>
+    <lock_children>true</lock_children>
+    <scripts />
+    <height>148</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <visible>true</visible>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0" />
+    </border_color>
+    <widget_type>Grouping Container</widget_type>
+    <background_color>
+      <color name="Background" red="255" green="255" blue="255" />
+    </background_color>
+    <width>1750</width>
+    <x>100</x>
+    <name>OPI Title</name>
+    <y>100</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <fc>false</fc>
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <fontdata fontName="Sans" height="1" style="1" />
+    </font>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip></tooltip>
+      <horizontal_alignment>0</horizontal_alignment>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-3a56f574:15925f8ad9e:-45a3</wuid>
+      <transparent>true</transparent>
+      <auto_size>false</auto_size>
+      <text>   fRIO1483 Image DMA Data Acquisition  OPI Panel</text>
+      <scripts />
+      <height>148</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Label</widget_type>
+      <wrap_words>true</wrap_words>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255" />
+      </background_color>
+      <width>1600</width>
+      <x>150</x>
+      <name>fRIO1483 Image DMA Data Acquisition  OPI Panel</name>
+      <y>0</y>
+      <foreground_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <fontdata fontName="Sans" height="40" style="1" />
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <crop_left>0</crop_left>
+      <enabled>true</enabled>
+      <wuid>-3a56f574:15925f8ad9e:-45a2</wuid>
+      <auto_size>true</auto_size>
+      <image_file>../images/i2a2_logo.png</image_file>
+      <scripts />
+      <height>148</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <align_to_nearest_second>false</align_to_nearest_second>
+      <visible>true</visible>
+      <crop_bottom>0</crop_bottom>
+      <degree>0</degree>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <no_animation>false</no_animation>
+      <widget_type>Image</widget_type>
+      <flip_horizontal>false</flip_horizontal>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255" />
+      </background_color>
+      <permutation_matrix>
+        <row>
+          <col>1.0</col>
+          <col>0.0</col>
+        </row>
+        <row>
+          <col>0.0</col>
+          <col>1.0</col>
+        </row>
+      </permutation_matrix>
+      <width>150</width>
+      <x>0</x>
+      <name>Image</name>
+      <y>0</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <crop_top>0</crop_top>
+      <crop_right>0</crop_right>
+      <stretch_to_fit>false</stretch_to_fit>
+      <flip_vertical>false</flip_vertical>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+    </widget>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+    <border_style>13</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-3a56f574:15925f8ad9e:-45ac</wuid>
+    <transparent>false</transparent>
+    <lock_children>false</lock_children>
+    <scripts />
+    <height>800</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <visible>true</visible>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0" />
+    </border_color>
+    <widget_type>Grouping Container</widget_type>
+    <background_color>
+      <color name="Background" red="255" green="255" blue="255" />
+    </background_color>
+    <width>800</width>
+    <x>1710</x>
+    <name>Waveforms</name>
+    <y>315</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <fc>false</fc>
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+    </font>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip>Input waveform $(CHIDX)</tooltip>
+      <horizontal_alignment>0</horizontal_alignment>
+      <rules />
+      <enabled>false</enabled>
+      <wuid>-3a56f574:15925f8ad9e:-45ab</wuid>
+      <transparent>true</transparent>
+      <auto_size>false</auto_size>
+      <text>1483-0-CH0</text>
+      <scripts />
+      <height>45</height>
+      <border_width>2</border_width>
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <widget_type>Label</widget_type>
+      <wrap_words>true</wrap_words>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <width>438</width>
+      <x>0</x>
+      <name>lbl1483-0-CH0</name>
+      <y>0</y>
+      <foreground_color>
+        <color name="IO Text Fg" red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+      <border_style>1</border_style>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <alarm_pulsing>false</alarm_pulsing>
+      <precision>0</precision>
+      <tooltip>$(pv_name) $(pv_value)</tooltip>
+      <horizontal_alignment>1</horizontal_alignment>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-3a56f574:15925f8ad9e:-45aa</wuid>
+      <transparent>false</transparent>
+      <pv_value />
+      <auto_size>false</auto_size>
+      <text></text>
+      <rotation_angle>0.0</rotation_angle>
+      <scripts />
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <show_units>false</show_units>
+      <height>45</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <pv_name>TEST-FCT0-HWCF:1483-0-CH0</pv_name>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color name="IO Button" red="178" green="178" blue="178" />
+      </border_color>
+      <precision_from_pv>true</precision_from_pv>
+      <widget_type>Text Update</widget_type>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <wrap_words>false</wrap_words>
+      <format_type>0</format_type>
+      <background_color>
+        <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+      </background_color>
+      <width>438</width>
+      <x>328</x>
+      <name>textUpdate1483-0-CH0</name>
+      <y>0</y>
+      <foreground_color>
+        <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="10" style="0">IO Label</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.intensityGraph" version="1.0.0">
+      <vertial_profile_y_pv_value />
+      <y_axis_show_minor_ticks>true</y_axis_show_minor_ticks>
+      <alarm_pulsing>false</alarm_pulsing>
+      <tooltip>$(pv_name)</tooltip>
+      <x_axis_show_minor_ticks>true</x_axis_show_minor_ticks>
+      <horizon_profile_x_pv_name></horizon_profile_x_pv_name>
+      <height>688</height>
+      <border_width>2</border_width>
+      <graph_area_width>628</graph_area_width>
+      <y_axis_scale_font>
+        <opifont.name fontName="DejaVu Sans Mono" height="12" style="0">IO Scale 1</opifont.name>
+      </y_axis_scale_font>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <x_axis_minimum>0.0</x_axis_minimum>
+      <y_axis_maximum>256.0</y_axis_maximum>
+      <pixel_info_pv_value />
+      <x_axis_maximum>256.0</x_axis_maximum>
+      <vertial_profile_x_pv_value />
+      <actions hook="false" hook_all="false" />
+      <border_style>5</border_style>
+      <rgb_mode>false</rgb_mode>
+      <crop_left>0</crop_left>
+      <x_axis_scale_font>
+        <opifont.name fontName="DejaVu Sans Mono" height="12" style="0">IO Scale 1</opifont.name>
+      </x_axis_scale_font>
+      <data_width>256</data_width>
+      <enabled>false</enabled>
+      <wuid>-3a56f574:15925f8ad9e:-426d</wuid>
+      <y_axis_title_font>
+        <opifont.name fontName="DejaVu Sans Mono" height="12" style="0">IO Normal</opifont.name>
+      </y_axis_title_font>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <graph_area_height>628</graph_area_height>
+      <x_axis_visible>true</x_axis_visible>
+      <vertical_profile_x_pv_name></vertical_profile_x_pv_name>
+      <pixel_info_pv_name></pixel_info_pv_name>
+      <x_axis_axis_color>
+        <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+      </x_axis_axis_color>
+      <background_color>
+        <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+      </background_color>
+      <x_axis_axis_title>X Axis</x_axis_axis_title>
+      <width>765</width>
+      <x>0</x>
+      <y>55</y>
+      <maximum>127.0</maximum>
+      <data_height>256</data_height>
+      <minimum>-128.0</minimum>
+      <crop_right>0</crop_right>
+      <crop_top>0</crop_top>
+      <roi_color>
+        <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+      </roi_color>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="12" style="0">IO Normal</opifont.name>
+      </font>
+      <rules />
+      <horizon_profile_y_pv_value />
+      <roi_count>0</roi_count>
+      <pv_value />
+      <color_map>
+        <interpolate>true</interpolate>
+        <autoscale>false</autoscale>
+        <map>
+          <e red="0" green="0" blue="0">0.0</e>
+          <e red="255" green="255" blue="255">-1.0</e>
+          <e red="127" green="127" blue="127">127.0</e>
+          <e red="128" green="128" blue="128">-128.0</e>
+        </map>
+      </color_map>
+      <show_ramp>true</show_ramp>
+      <y_axis_axis_title>Y Axis</y_axis_axis_title>
+      <horizon_profile_y_pv_name></horizon_profile_y_pv_name>
+      <single_line_profiling>false</single_line_profiling>
+      <y_axis_minimum>0.0</y_axis_minimum>
+      <visible>true</visible>
+      <vertical_profile_y_pv_name></vertical_profile_y_pv_name>
+      <x_axis_major_tick_step_hint>50</x_axis_major_tick_step_hint>
+      <pv_name>TEST-FCT0-HWCF:1483-0-IMAGE0</pv_name>
+      <widget_type>Intensity Graph</widget_type>
+      <name>Intensity Graph Template_1</name>
+      <y_axis_axis_color>
+        <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+      </y_axis_axis_color>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <y_axis_major_tick_step_hint>50</y_axis_major_tick_step_hint>
+      <scripts />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <x_axis_title_font>
+        <opifont.name fontName="DejaVu Sans Mono" height="12" style="0">IO Normal</opifont.name>
+      </x_axis_title_font>
+      <crop_bottom>0</crop_bottom>
+      <y_axis_visible>true</y_axis_visible>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <horizon_profile_x_pv_value />
+      <foreground_color>
+        <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+      </foreground_color>
+    </widget>
+  </widget>
+</display>

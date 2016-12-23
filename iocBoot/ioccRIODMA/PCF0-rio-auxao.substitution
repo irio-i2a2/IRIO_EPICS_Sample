@@ -1,0 +1,31 @@
+file "$(IRIO_EPICS)/db/rio-auxao.template" {
+
+pattern
+{
+	BOARDTYPE,
+	BOARDTYPEIDX,
+	CBS1,
+	CBS2,
+	CHIDX,
+	DRVH,
+	DRVL,
+	HOPR,
+	LOPR,
+	MODULEIDX
+}
+ 	
+	
+{
+	"NI9159",
+	"0",
+	"TEST",
+	"FCT0",
+	"0",
+	"2147483647",
+	"-2147483648",
+	"2147483647",
+	"-2147483648",
+	"0"
+}
+	
+}

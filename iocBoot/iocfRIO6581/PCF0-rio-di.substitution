@@ -1,0 +1,104 @@
+file "$(IRIO_EPICS)/db/rio-di.template" {
+
+pattern
+{
+	BOARDTYPE,
+	BOARDTYPEIDX,
+	CBS1,
+	CBS2,
+	CHIDX,
+	MODULEIDX,
+	SCAN,
+	TSE
+}
+ 	
+	
+{
+	"6581",
+	"0",
+	"TEST",
+	"FCT0",
+	"0",
+	"0",
+	".1 second",
+	"0"
+}
+	
+{
+	"6581",
+	"0",
+	"TEST",
+	"FCT0",
+	"1",
+	"0",
+	".1 second",
+	"0"
+}
+	
+{
+	"6581",
+	"0",
+	"TEST",
+	"FCT0",
+	"2",
+	"0",
+	".1 second",
+	"0"
+}
+
+{
+	"6581",
+	"0",
+	"TEST",
+	"FCT0",
+	"3",
+	"0",
+	".1 second",
+	"0"
+}
+
+{
+	"6581",
+	"0",
+	"TEST",
+	"FCT0",
+	"4",
+	"0",
+	".1 second",
+	"0"
+}
+
+{
+	"6581",
+	"0",
+	"TEST",
+	"FCT0",
+	"5",
+	"0",
+	".1 second",
+	"0"
+}
+
+{
+	"6581",
+	"0",
+	"TEST",
+	"FCT0",
+	"6",
+	"0",
+	".1 second",
+	"0"
+}
+
+{
+	"6581",
+	"0",
+	"TEST",
+	"FCT0",
+	"7",
+	"0",
+	".1 second",
+	"0"
+}
+
+}

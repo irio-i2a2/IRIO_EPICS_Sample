@@ -1,0 +1,38 @@
+file "$(IRIO_EPICS)/db/rio-wf.template" {
+
+pattern
+{
+	BOARDTYPE,
+	BOARDTYPEIDX,
+	CBS1,
+	CBS2,
+	CHIDX,
+	MODULEIDX,
+	NSAMPLE,
+	TSE
+}
+ 	
+	
+{
+	"NI9159",
+	"0",
+	"TEST",
+	"FCT0",
+	"0",
+	"0",
+	"128",
+	"0"
+}
+	
+{
+	"NI9159",
+	"0",
+	"TEST",
+	"FCT0",
+	"1",
+	"0",
+	"128",
+	"0"
+}
+	
+}

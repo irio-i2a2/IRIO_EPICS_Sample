@@ -1,0 +1,23 @@
+file "$(IRIO_EPICS)/db/rio-dataacquisition.template" {
+
+pattern
+{
+	BOARDTYPE,
+	BOARDTYPEIDX,
+	CBS1,
+	CBS2,
+	GRIDX,
+	MODULEIDX
+}
+ 	
+	
+{
+	"6581",
+	"0",
+	"TEST",
+	"FCT0",
+	"0",
+	"0"
+}
+	
+}

@@ -1,0 +1,55 @@
+file "$(IRIO_EPICS)/db/rio-sg.template" {
+
+pattern
+{
+	BOARDTYPE,
+	BOARDTYPEIDX,
+	CBS1,
+	CBS2,
+	CHIDX,
+	MODULEIDX,
+	HOPR_SGUPDATERATE,
+	LOPR_SGUPDATERATE,
+	DRVH_SGUPDATERATE,
+	DRVL_SGUPDATERATE,
+	HOPR_SGFREQ,
+	LOPR_SGFREQ,
+	DRVH_SGFREQ,
+	DRVL_SGFREQ,
+	HOPR_SGPHASE,
+	LOPR_SGPHASE,
+	DRVH_SGPHASE,
+	DRVL_SGPHASE,
+	HOPR_SGAMP,
+	LOPR_SGAMP,
+	DRVH_SGAMP,
+	DRVL_SGAMP
+}
+ 	
+	
+{
+	"NI9159",
+	"0",
+	"TEST",
+	"FCT0",
+	"0",
+	"0",
+	"10000",
+	"0",
+	"10000",
+	"0",
+	"1000",
+	"0",
+	"1000",
+	"0",
+	"360",
+	"0",
+	"360",
+	"0",
+	"10.0",
+	"-10.00",
+	"10.0",
+	"-10.0"
+}
+	
+}

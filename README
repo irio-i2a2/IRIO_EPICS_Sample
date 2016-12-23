@@ -1,0 +1,78 @@
+#################################################################################################################################################
+								IRIO EPICS Sample Unit
+#################################################################################################################################################
+=================================================================================================================================================
+IRIO EPICS Sample Unit description:
+=================================================================================================================================================
+The IRIO EPICS Sample Unit tests the complete integration of advanced data acquisition applications in EPICS using IRIO technology. 
+It allows the users to test five different applications.
+These applications are:
+-cRIOIO: Application based on cRIO platform using direct I/O data acquisition profile.
+-cRIODMA: Application based on cRIO platform using DMA data acquisition profile.
+-fRIO5761: Application based on flexRIO platform (PXIe7966/65+NI5761) using DMA data acquisition profile.
+-fRIO6581: Application based on flexRIO platform (PXIe7966/65/61+NI6581) using DMA data acquisition profile.
+-fRIO1483: Application based on flexRIO platform (PXIe7966/65+NI1483) using Image DMA data acquisition profile.
+
+In the following website, users can find all info needed about IRIO Technology.
+
+Website: http://www.i2a2.upm.es/idi/instrumentacion-aplicada/sistemas-de-adquisicion-de-datos-avanzados-2/irio-technology/
+
+
+
+=================================================================================================================================================
+IRIO EPICS Sample Unit hardware and software needs:
+=================================================================================================================================================
+IRIO EPICS Sample Unit needs:
+Hardware:
+-cRIO Platform: 
+	-Chassis: NI9159
+	-I/O Modules: NI9264, NI9205, NI9401, NI9477, NI9426, NI9476,and NI9425.
+-flexRIO Platform: 
+	-Chassis: PXI Express chassis compatible with NI RIO Linux driver 15.0 and compatible with PXIe79xx FPGAs family.
+	-FPGAs: PXIe7966, PXIe7965 and/or PXIe7961
+	-Adapter Modules: NI5761, NI6581 and/or NI1483
+Software:
+	-NI-RIO Linux Driver 
+	-EPICS Base
+	-SynApps (Busy, Sscan, Autosave and Calc)
+	-IRIO Library
+	-IRIO EPICS Device Support
+
+In the following website, users can find all info needed about how to install required software packages in a ScientificLinux distribution.
+
+WebSite: http://www.i2a2.upm.es/idi/instrumentacion-aplicada/sistemas-de-adquisicion-de-datos-avanzados-2/irio-software-tools-installation/
+
+
+
+=================================================================================================================================================
+IRIO Library GitHub Repository:
+=================================================================================================================================================
+https://github.com/irio-i2a2/IRIO_EPICS_SAMPLE.git
+
+
+
+=================================================================================================================================================
+IRIO Library Developers and Copyright Info:
+=================================================================================================================================================
+Project             : IRIO EPICS Sample Unit
+
+Description         : The IRIO EPICS Sample Unit allows the users to test EPICS IOCs (using IRIO EPICS device driver+IRIO Library) 
+		      to acquire data using NI RIO Hardware (cRIO and FlexRIO).
+
+Authors             : Mariano Ruiz, Diego Sanz, Sergio Esquembri, Enrique Bernal, and Alvaro Bustos
+
+Authors Affiliation : Universidad Politécnica de Madrid (UPM)
+
+Copyright (C)       : 2010-2015 Universidad Politécnica de Madrid (UPM)
+
+Support             : irio@i2a2.upm.es
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the 
+Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ 
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+

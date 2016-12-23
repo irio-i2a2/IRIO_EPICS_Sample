@@ -1,0 +1,23 @@
+file "$(IRIO_EPICS)/db/rio-pointbypoint.template" {
+
+pattern
+{
+	BOARDTYPE,
+	BOARDTYPEIDX,
+	CBS1,
+	CBS2,
+	GRIDX,
+	MODULEIDX
+}
+ 	
+	
+{
+	"NI9159",
+	"0",
+	"TEST",
+	"FCT0",
+	"0",
+	"0"
+}
+	
+}

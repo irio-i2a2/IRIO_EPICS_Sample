@@ -1,0 +1,21 @@
+file "$(IRIO_EPICS)/db/rio-module.template" {
+
+pattern
+{
+	BOARDTYPE,
+	BOARDTYPEIDX,
+	CBS1,
+	CBS2,
+	MODULEIDX
+}
+ 	
+	
+{
+	"5761",
+	"0",
+	"TEST",
+	"FCT0",
+	"0"
+}
+	
+}
